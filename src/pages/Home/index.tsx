@@ -4,6 +4,7 @@ import React from "react";
 const Home: React.FC = () => {
 	return (
 		<>
+			<div />
 			<div className="flex flex-row items-center gap-2">
 				<Avatar
 					src="/favicon.svg"
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
 					secondaryTypographyProps={{ className: "text-sm pl-1" }}
 				/>
 			</div>
+			<div />
 			<Button
 				variant="contained"
 				size="large"
