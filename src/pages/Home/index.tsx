@@ -1,20 +1,20 @@
 import { Avatar, Button, ListItemText } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
 	return (
 		<>
 			<div />
-			<div className="flex flex-row items-center gap-2">
+			<div className="flex flex-row items-center gap-4">
 				<Avatar
 					src="/favicon.svg"
 					variant="rounded"
 					className="h-24 w-24 rotate-12"
 				/>
 				<ListItemText
-					primary={"Cafee'e"}
-					secondary={"Manage Your Restaurant"}
-					// className="text-"
+					primary={"Buff'eat"}
+					secondary={"Manage Your Reservations"}
 					primaryTypographyProps={{ className: "text-5xl" }}
 					secondaryTypographyProps={{ className: "text-sm pl-1" }}
 				/>
@@ -23,6 +23,8 @@ const Home: React.FC = () => {
 			<Button
 				variant="contained"
 				size="large"
+				component={Link}
+				to={"/app"}
 			>
 				Get Started
 			</Button>
