@@ -25,15 +25,6 @@ const Floor: React.FC = () => {
 					chair={chair}
 					angle={angle}
 				/>
-
-				<Table.Rect
-					chair={chair}
-					angle={angle}
-				/>
-				<Table.Rect
-					chair={chair}
-					angle={angle}
-				/>
 				{/* <Table.Square /> */}
 				{/* <Table
 				shape="square"
